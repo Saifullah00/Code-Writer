@@ -4,7 +4,8 @@ import path from "path"
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/vite-deploy-demo/',
+  // base: '/vite-deploy-demo/',
+  base: '/Code-Writer/',
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
